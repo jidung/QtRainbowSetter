@@ -1,0 +1,791 @@
+﻿Build started 2013-09-07 오후 6:41:25.
+     1>Project "C:\intergrate\pbrt-v2-src\pbrt-v2\src\pbrt.vs2012\libpbrt.vcxproj" on node 2 (Rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "../../tmp/libpbrt/libpbrt.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "../../tmp/libpbrt/libpbrt.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       PreBuildEvent:
+         prebuild.cmd
+         :VCEnd
+         
+         Microsoft (R) Program Maintenance Utility Version 11.00.50727.1
+         Copyright (C) Microsoft Corporation.  All rights reserved.
+         
+         
+         Microsoft (R) Program Maintenance Utility Version 11.00.50727.1
+         Copyright (C) Microsoft Corporation.  All rights reserved.
+         
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WIN32 /D _DEBUG /D _CONSOLE /D PBRT_PROBES_NONE /D PBRT_HAS_OPENEXR /D ZLIB_WINAPI /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"../../tmp/libpbrt/libpbrt.pch" /Fo"../../tmp/libpbrt/" /Fd"../../tmp/libpbrt/vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ..\core\StdAfx.cpp
+         StdAfx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WIN32 /D _DEBUG /D _CONSOLE /D PBRT_PROBES_NONE /D PBRT_HAS_OPENEXR /D ZLIB_WINAPI /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"../../tmp/libpbrt/" /Fd"../../tmp/libpbrt/vc110.pdb" /Gd /TP /analyze- /errorReport:prompt "..\3rdparty\ilmbase-1.0.2\half.cpp" "..\3rdparty\ilmbase-1.0.2\IexBaseExc.cpp" "..\3rdparty\ilmbase-1.0.2\IexThrowErrnoExc.cpp" "..\3rdparty\ilmbase-1.0.2\IlmThread.cpp" "..\3rdparty\ilmbase-1.0.2\IlmThreadMutex.cpp" "..\3rdparty\ilmbase-1.0.2\IlmThreadMutexPosix.cpp" "..\3rdparty\ilmbase-1.0.2\IlmThreadMutexWin32.cpp" "..\3rdparty\ilmbase-1.0.2\IlmThreadPool.cpp" "..\3rdparty\ilmbase-1.0.2\IlmThreadPosix.cpp" "..\3rdparty\ilmbase-1.0.2\IlmThreadSemaphore.cpp" "..\3rdparty\ilmbase-1.0.2\IlmThreadSemaphorePosix.cpp" "..\3rdparty\ilmbase-1.0.2\IlmThreadSemaphorePosixCompat.cpp" "..\3rdparty\ilmbase-1.0.2\IlmThreadSemaphoreWin32.cpp" "..\3rdparty\ilmbase-1.0.2\IlmThreadWin32.cpp" "..\3rdparty\ilmbase-1.0.2\ImathBox.cpp" "..\3rdparty\ilmbase-1.0.2\ImathColorAlgo.cpp" "..\3rdparty\ilmbase-1.0.2\ImathFun.cpp" "..\3rdparty\ilmbase-1.0.2\ImathMatrixAlgo.cpp" "..\3rdparty\ilmbase-1.0.2\ImathRandom.cpp" "..\3rdparty\ilmbase-1.0.2\ImathShear.cpp" "..\3rdparty\ilmbase-1.0.2\ImathVec.cpp" "..\3rdparty\openexr-1.7.0\ImfAcesFile.cpp" "..\3rdparty\openexr-1.7.0\ImfAttribute.cpp" "..\3rdparty\openexr-1.7.0\ImfB44Compressor.cpp" "..\3rdparty\openexr-1.7.0\ImfBoxAttribute.cpp" "..\3rdparty\openexr-1.7.0\ImfChannelList.cpp" "..\3rdparty\openexr-1.7.0\ImfChannelListAttribute.cpp" "..\3rdparty\openexr-1.7.0\ImfChromaticities.cpp" "..\3rdparty\openexr-1.7.0\ImfChromaticitiesAttribute.cpp" "..\3rdparty\openexr-1.7.0\ImfCompressionAttribute.cpp" "..\3rdparty\openexr-1.7.0\ImfCompressor.cpp" "..\3rdparty\openexr-1.7.0\ImfConvert.cpp" "..\3rdparty\openexr-1.7.0\ImfCRgbaFile.cpp" "..\3rdparty\openexr-1.7.0\ImfDoubleAttribute.cpp" "..\3rdparty\openexr-1.7.0\ImfEnvmap.cpp" "..\3rdparty\openexr-1.7.0\ImfEnvmapAttribute.cpp" "..\3rdparty\openexr-1.7.0\ImfFloatAttribute.cpp" "..\3rdparty\openexr-1.7.0\ImfFrameBuffer.cpp" "..\3rdparty\openexr-1.7.0\ImfFramesPerSecond.cpp" "..\3rdparty\openexr-1.7.0\ImfHeader.cpp" "..\3rdparty\openexr-1.7.0\ImfHuf.cpp" "..\3rdparty\openexr-1.7.0\ImfInputFile.cpp" "..\3rdparty\openexr-1.7.0\ImfIntAttribute.cpp" "..\3rdparty\openexr-1.7.0\ImfIO.cpp" "..\3rdparty\openexr-1.7.0\ImfKeyCode.cpp" "..\3rdparty\openexr-1.7.0\ImfKeyCodeAttribute.cpp" "..\3rdparty\openexr-1.7.0\ImfLineOrderAttribute.cpp" "..\3rdparty\openexr-1.7.0\ImfLut.cpp" "..\3rdparty\openexr-1.7.0\ImfMatrixAttribute.cpp" "..\3rdparty\openexr-1.7.0\ImfMisc.cpp" "..\3rdparty\openexr-1.7.0\ImfMultiView.cpp" "..\3rdparty\openexr-1.7.0\ImfOpaqueAttribute.cpp" "..\3rdparty\openexr-1.7.0\ImfOutputFile.cpp" "..\3rdparty\openexr-1.7.0\ImfPizCompressor.cpp" "..\3rdparty\openexr-1.7.0\ImfPreviewImage.cpp" "..\3rdparty\openexr-1.7.0\ImfPreviewImageAttribute.cpp" "..\3rdparty\openexr-1.7.0\ImfPxr24Compressor.cpp" "..\3rdparty\openexr-1.7.0\ImfRational.cpp" "..\3rdparty\openexr-1.7.0\ImfRationalAttribute.cpp" "..\3rdparty\openexr-1.7.0\ImfRgbaFile.cpp" "..\3rdparty\openexr-1.7.0\ImfRgbaYca.cpp" "..\3rdparty\openexr-1.7.0\ImfRleCompressor.cpp" "..\3rdparty\openexr-1.7.0\ImfScanLineInputFile.cpp" "..\3rdparty\openexr-1.7.0\ImfStandardAttributes.cpp" "..\3rdparty\openexr-1.7.0\ImfStdIO.cpp" "..\3rdparty\openexr-1.7.0\ImfStringAttribute.cpp" "..\3rdparty\openexr-1.7.0\ImfStringVectorAttribute.cpp" "..\3rdparty\openexr-1.7.0\ImfTestFile.cpp" "..\3rdparty\openexr-1.7.0\ImfThreading.cpp" "..\3rdparty\openexr-1.7.0\ImfTileDescriptionAttribute.cpp" "..\3rdparty\openexr-1.7.0\ImfTiledInputFile.cpp" "..\3rdparty\openexr-1.7.0\ImfTiledMisc.cpp" "..\3rdparty\openexr-1.7.0\ImfTiledOutputFile.cpp" "..\3rdparty\openexr-1.7.0\ImfTiledRgbaFile.cpp" "..\3rdparty\openexr-1.7.0\ImfTileOffsets.cpp" "..\3rdparty\openexr-1.7.0\ImfTimeCode.cpp" "..\3rdparty\openexr-1.7.0\ImfTimeCodeAttribute.cpp" "..\3rdparty\openexr-1.7.0\ImfVecAttribute.cpp" "..\3rdparty\openexr-1.7.0\ImfVersion.cpp" "..\3rdparty\openexr-1.7.0\ImfWav.cpp" "..\3rdparty\openexr-1.7.0\ImfZipCompressor.cpp" "..\3rdparty\tiff-3.9.4\tif_stream.cxx" ..\core\pbrtlex.cpp ..\core\pbrtparse.cpp
+         pbrtparse.cpp
+         pbrtlex.cpp
+         tif_stream.cxx
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\tiff-3.9.4\tif_stream.cxx(66): warning C4244: 'return' : conversion from 'std::streamsize' to 'tsize_t', possible loss of data
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\tiff-3.9.4\tif_stream.cxx(74): warning C4244: 'initializing' : conversion from 'std::streamoff' to 'int', possible loss of data
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\tiff-3.9.4\tif_stream.cxx(95): warning C4244: 'return' : conversion from 'std::streamoff' to 'toff_t', possible loss of data
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\tiff-3.9.4\tif_stream.cxx(129): warning C4244: '=' : conversion from 'std::streamoff' to 'toff_t', possible loss of data
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\tiff-3.9.4\tif_stream.cxx(133): warning C4244: '=' : conversion from 'std::streamoff' to 'toff_t', possible loss of data
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\tiff-3.9.4\tif_stream.cxx(140): warning C4018: '>' : signed/unsigned mismatch
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\tiff-3.9.4\tif_stream.cxx(157): warning C4244: 'return' : conversion from 'std::streamoff' to 'toff_t', possible loss of data
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\tiff-3.9.4\tif_stream.cxx(185): warning C4244: 'initializing' : conversion from 'std::streamoff' to 'toff_t', possible loss of data
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\tiff-3.9.4\tif_stream.cxx(189): warning C4244: '=' : conversion from 'std::streamoff' to 'toff_t', possible loss of data
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\tiff-3.9.4\tif_stream.cxx(199): warning C4244: 'initializing' : conversion from 'std::streamoff' to 'int', possible loss of data
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\tiff-3.9.4\tif_stream.cxx(203): warning C4244: '=' : conversion from 'std::streamoff' to 'int', possible loss of data
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\tiff-3.9.4\tif_stream.cxx(247): warning C4244: '=' : conversion from 'std::streamoff' to 'long', possible loss of data
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\tiff-3.9.4\tif_stream.cxx(259): warning C4244: '=' : conversion from 'std::streamoff' to 'long', possible loss of data
+         ImfZipCompressor.cpp
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\openexr-1.7.0\imfzipcompressor.cpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\openexr-1.7.0\imfzipcompressor.cpp(42): warning C4005: 'ZLIB_WINAPI' : macro redefinition
+                 command-line arguments :  see previous definition of 'ZLIB_WINAPI'
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\openexr-1.7.0\imfcheckedarithmetic.h(65): warning C4101: 'staticAssertionFailed' : unreferenced local variable
+                 c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\openexr-1.7.0\imfzipcompressor.cpp(64) : see reference to function template instantiation 'T Imf::uiMult<size_t>(T,T)' being compiled
+                 with
+                 [
+                     T=size_t
+                 ]
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\openexr-1.7.0\imfcheckedarithmetic.h(101): warning C4101: 'staticAssertionFailed' : unreferenced local variable
+                 c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\openexr-1.7.0\imfzipcompressor.cpp(68) : see reference to function template instantiation 'T Imf::uiAdd<size_t>(T,T)' being compiled
+                 with
+                 [
+                     T=size_t
+                 ]
+         ImfWav.cpp
+         ImfVersion.cpp
+         ImfVecAttribute.cpp
+         ImfTimeCodeAttribute.cpp
+         ImfTimeCode.cpp
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\openexr-1.7.0\imftimecode.cpp(236): warning C4800: 'unsigned int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\openexr-1.7.0\imftimecode.cpp(250): warning C4800: 'unsigned int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\openexr-1.7.0\imftimecode.cpp(264): warning C4800: 'unsigned int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\openexr-1.7.0\imftimecode.cpp(278): warning C4800: 'unsigned int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\openexr-1.7.0\imftimecode.cpp(292): warning C4800: 'unsigned int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\openexr-1.7.0\imftimecode.cpp(306): warning C4800: 'unsigned int' : forcing value to bool 'true' or 'false' (performance warning)
+         ImfTileOffsets.cpp
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\openexr-1.7.0\imftileoffsets.cpp(80): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\openexr-1.7.0\imftileoffsets.cpp(82): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\openexr-1.7.0\imftileoffsets.cpp(262): warning C4018: '>' : signed/unsigned mismatch
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\openexr-1.7.0\imftileoffsets.cpp(263): warning C4018: '>' : signed/unsigned mismatch
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\openexr-1.7.0\imftileoffsets.cpp(274): warning C4018: '>' : signed/unsigned mismatch
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\openexr-1.7.0\imftileoffsets.cpp(275): warning C4018: '>' : signed/unsigned mismatch
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\openexr-1.7.0\imftileoffsets.cpp(276): warning C4018: '>' : signed/unsigned mismatch
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\openexr-1.7.0\imftileoffsets.cpp(287): warning C4018: '>' : signed/unsigned mismatch
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\openexr-1.7.0\imftileoffsets.cpp(288): warning C4018: '>' : signed/unsigned mismatch
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\openexr-1.7.0\imftileoffsets.cpp(289): warning C4018: '>' : signed/unsigned mismatch
+         ImfTiledRgbaFile.cpp
+         ImfTiledOutputFile.cpp
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\openexr-1.7.0\imftiledoutputfile.cpp(1267): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\openexr-1.7.0\imftiledoutputfile.cpp(1383): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\openexr-1.7.0\imftiledoutputfile.cpp(1390): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\openexr-1.7.0\imftiledoutputfile.cpp(1391): warning C4018: '<' : signed/unsigned mismatch
+         ImfTiledMisc.cpp
+         ImfTiledInputFile.cpp
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\openexr-1.7.0\imftiledinputfile.cpp(1029): warning C4018: '<' : signed/unsigned mismatch
+         ImfTileDescriptionAttribute.cpp
+         ImfThreading.cpp
+         ImfTestFile.cpp
+         ImfStringVectorAttribute.cpp
+         ImfStringAttribute.cpp
+         ImfStdIO.cpp
+         Generating Code...
+         Compiling...
+         ImfStandardAttributes.cpp
+         ImfScanLineInputFile.cpp
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\openexr-1.7.0\imfscanlineinputfile.cpp(961): warning C4018: '<' : signed/unsigned mismatch
+         ImfRleCompressor.cpp
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\openexr-1.7.0\imfrlecompressor.cpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\openexr-1.7.0\imfcheckedarithmetic.h(65): warning C4101: 'staticAssertionFailed' : unreferenced local variable
+                 c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\openexr-1.7.0\imfrlecompressor.cpp(169) : see reference to function template instantiation 'T Imf::uiMult<size_t>(T,T)' being compiled
+                 with
+                 [
+                     T=size_t
+                 ]
+         ImfRgbaYca.cpp
+         ImfRgbaFile.cpp
+         ImfRationalAttribute.cpp
+         ImfRational.cpp
+         ImfPxr24Compressor.cpp
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\openexr-1.7.0\imfpxr24compressor.cpp(65): warning C4005: 'ZLIB_WINAPI' : macro redefinition
+                 command-line arguments :  see previous definition of 'ZLIB_WINAPI'
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\openexr-1.7.0\imfpxr24compressor.cpp(468): warning C4018: '>' : signed/unsigned mismatch
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\openexr-1.7.0\imfpxr24compressor.cpp(494): warning C4018: '>' : signed/unsigned mismatch
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\openexr-1.7.0\imfpxr24compressor.cpp(518): warning C4018: '>' : signed/unsigned mismatch
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\openexr-1.7.0\imfpxr24compressor.cpp(543): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\openexr-1.7.0\imfcheckedarithmetic.h(65): warning C4101: 'staticAssertionFailed' : unreferenced local variable
+                 c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\openexr-1.7.0\imfpxr24compressor.cpp(191) : see reference to function template instantiation 'T Imf::uiMult<size_t>(T,T)' being compiled
+                 with
+                 [
+                     T=size_t
+                 ]
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\openexr-1.7.0\imfcheckedarithmetic.h(101): warning C4101: 'staticAssertionFailed' : unreferenced local variable
+                 c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\openexr-1.7.0\imfpxr24compressor.cpp(195) : see reference to function template instantiation 'T Imf::uiAdd<size_t>(T,T)' being compiled
+                 with
+                 [
+                     T=size_t
+                 ]
+         ImfPreviewImageAttribute.cpp
+         ImfPreviewImage.cpp
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\openexr-1.7.0\imfcheckedarithmetic.h(65): warning C4101: 'staticAssertionFailed' : unreferenced local variable
+                 c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\openexr-1.7.0\imfpreviewimage.cpp(56) : see reference to function template instantiation 'T Imf::uiMult<unsigned int>(T,T)' being compiled
+                 with
+                 [
+                     T=unsigned int
+                 ]
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\openexr-1.7.0\imfcheckedarithmetic.h(147): warning C4101: 'staticAssertionFailed' : unreferenced local variable
+                 c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\openexr-1.7.0\imfpreviewimage.cpp(56) : see reference to function template instantiation 'size_t Imf::checkArraySize<T>(T,size_t)' being compiled
+                 with
+                 [
+                     T=unsigned int
+                 ]
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\openexr-1.7.0\imfcheckedarithmetic.h(150): warning C4101: 'staticAssertionFailed' : unreferenced local variable
+         ImfPizCompressor.cpp
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\openexr-1.7.0\imfpizcompressor.cpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\openexr-1.7.0\imfcheckedarithmetic.h(65): warning C4101: 'staticAssertionFailed' : unreferenced local variable
+                 c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\openexr-1.7.0\imfpizcompressor.cpp(186) : see reference to function template instantiation 'T Imf::uiMult<size_t>(T,T)' being compiled
+                 with
+                 [
+                     T=size_t
+                 ]
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\openexr-1.7.0\imfcheckedarithmetic.h(101): warning C4101: 'staticAssertionFailed' : unreferenced local variable
+                 c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\openexr-1.7.0\imfpizcompressor.cpp(190) : see reference to function template instantiation 'T Imf::uiAdd<T>(T,T)' being compiled
+                 with
+                 [
+                     T=size_t
+                 ]
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\openexr-1.7.0\imfcheckedarithmetic.h(147): warning C4101: 'staticAssertionFailed' : unreferenced local variable
+                 c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\openexr-1.7.0\imfpizcompressor.cpp(193) : see reference to function template instantiation 'size_t Imf::checkArraySize<size_t>(T,size_t)' being compiled
+                 with
+                 [
+                     T=size_t
+                 ]
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\openexr-1.7.0\imfcheckedarithmetic.h(150): warning C4101: 'staticAssertionFailed' : unreferenced local variable
+         ImfOutputFile.cpp
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\openexr-1.7.0\imfoutputfile.cpp(1107): warning C4018: '<' : signed/unsigned mismatch
+         ImfOpaqueAttribute.cpp
+         ImfMultiView.cpp
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\openexr-1.7.0\imfmultiview.cpp(104): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\openexr-1.7.0\imfmultiview.cpp(291): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\openexr-1.7.0\imfmultiview.cpp(384): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\openexr-1.7.0\imfmultiview.cpp(386): warning C4018: '<' : signed/unsigned mismatch
+         ImfMisc.cpp
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\openexr-1.7.0\imfmisc.cpp(141): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\openexr-1.7.0\imfmisc.cpp(221): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\openexr-1.7.0\imfmisc.cpp(567): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\openexr-1.7.0\imfmisc.cpp(576): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\openexr-1.7.0\imfmisc.cpp(585): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\openexr-1.7.0\imfmisc.cpp(717): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\openexr-1.7.0\imfmisc.cpp(724): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\openexr-1.7.0\imfmisc.cpp(731): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\openexr-1.7.0\imfmisc.cpp(751): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\openexr-1.7.0\imfmisc.cpp(762): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\openexr-1.7.0\imfmisc.cpp(771): warning C4018: '<' : signed/unsigned mismatch
+         ImfMatrixAttribute.cpp
+         ImfLut.cpp
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\openexr-1.7.0\imflut.cpp(155): warning C4244: 'initializing' : conversion from 'double' to 'const float', possible loss of data
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\openexr-1.7.0\imflut.cpp(173): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+         ImfLineOrderAttribute.cpp
+         ImfKeyCodeAttribute.cpp
+         ImfKeyCode.cpp
+         Generating Code...
+         Compiling...
+         ImfIO.cpp
+         ImfIntAttribute.cpp
+         ImfInputFile.cpp
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\openexr-1.7.0\imfinputfile.cpp(296): warning C4018: '<' : signed/unsigned mismatch
+         ImfHuf.cpp
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\openexr-1.7.0\imfhuf.cpp(168): warning C4244: '=' : conversion from 'Imath::Int64' to 'char', possible loss of data
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\openexr-1.7.0\imfhuf.cpp(247): warning C4244: 'initializing' : conversion from 'Imath::Int64' to 'int', possible loss of data
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\openexr-1.7.0\imfhuf.cpp(478): warning C4244: 'initializing' : conversion from 'Imath::Int64' to 'int', possible loss of data
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\openexr-1.7.0\imfhuf.cpp(547): warning C4244: 'initializing' : conversion from 'Imath::Int64' to 'int', possible loss of data
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\openexr-1.7.0\imfhuf.cpp(559): warning C4244: 'initializing' : conversion from 'Imath::Int64' to 'int', possible loss of data
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\openexr-1.7.0\imfhuf.cpp(618): warning C4244: 'initializing' : conversion from 'Imath::Int64' to 'int', possible loss of data
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\openexr-1.7.0\imfhuf.cpp(721): warning C4244: 'argument' : conversion from 'Imath::Int64' to 'int', possible loss of data
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\openexr-1.7.0\imfhuf.cpp(889): warning C4244: 'initializing' : conversion from 'Imath::Int64' to 'unsigned char', possible loss of data
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\openexr-1.7.0\imfhuf.cpp(904): warning C4244: 'initializing' : conversion from 'Imath::Int64' to 'int', possible loss of data
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\openexr-1.7.0\imfhuf.cpp(919): warning C4244: 'initializing' : conversion from 'Imath::Int64' to 'unsigned char', possible loss of data
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\openexr-1.7.0\imfhuf.cpp(946): warning C4244: 'initializing' : conversion from 'Imath::Int64' to 'unsigned char', possible loss of data
+         ImfHeader.cpp
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\openexr-1.7.0\imfheader.cpp(715): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\openexr-1.7.0\imfheader.cpp(722): warning C4018: '<' : signed/unsigned mismatch
+         ImfFramesPerSecond.cpp
+         ImfFrameBuffer.cpp
+         ImfFloatAttribute.cpp
+         ImfEnvmapAttribute.cpp
+         ImfEnvmap.cpp
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\openexr-1.7.0\imfenvmap.cpp(77): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\openexr-1.7.0\imfenvmap.cpp(88): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\openexr-1.7.0\imfenvmap.cpp(102): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\openexr-1.7.0\imfenvmap.cpp(103): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+         ImfDoubleAttribute.cpp
+         ImfCRgbaFile.cpp
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\openexr-1.7.0\imfcrgbafile.cpp(292): warning C4244: '=' : conversion from 'const int' to 'float', possible loss of data
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\openexr-1.7.0\imfcrgbafile.cpp(293): warning C4244: '=' : conversion from 'const int' to 'float', possible loss of data
+         ImfConvert.cpp
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\openexr-1.7.0\imfconvert.cpp(119): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+         ImfCompressor.cpp
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\openexr-1.7.0\imfcheckedarithmetic.h(65): warning C4101: 'staticAssertionFailed' : unreferenced local variable
+                 c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\openexr-1.7.0\imfcompressor.cpp(162) : see reference to function template instantiation 'T Imf::uiMult<size_t>(T,T)' being compiled
+                 with
+                 [
+                     T=size_t
+                 ]
+         ImfCompressionAttribute.cpp
+         ImfChromaticitiesAttribute.cpp
+         ImfChromaticities.cpp
+         ImfChannelListAttribute.cpp
+         ImfChannelList.cpp
+         ImfBoxAttribute.cpp
+         Generating Code...
+         Compiling...
+         ImfB44Compressor.cpp
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\openexr-1.7.0\imfb44compressor.cpp(323): warning C4244: '=' : conversion from 'unsigned short' to 'unsigned char', possible loss of data
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\openexr-1.7.0\imfb44compressor.cpp(344): warning C4244: '=' : conversion from 'unsigned short' to 'unsigned char', possible loss of data
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\openexr-1.7.0\imfcheckedarithmetic.h(65): warning C4101: 'staticAssertionFailed' : unreferenced local variable
+                 c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\openexr-1.7.0\imfb44compressor.cpp(492) : see reference to function template instantiation 'T Imf::uiMult<size_t>(T,T)' being compiled
+                 with
+                 [
+                     T=size_t
+                 ]
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\openexr-1.7.0\imfcheckedarithmetic.h(147): warning C4101: 'staticAssertionFailed' : unreferenced local variable
+                 c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\openexr-1.7.0\imfb44compressor.cpp(493) : see reference to function template instantiation 'size_t Imf::checkArraySize<T>(T,size_t)' being compiled
+                 with
+                 [
+                     T=size_t
+                 ]
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\openexr-1.7.0\imfcheckedarithmetic.h(150): warning C4101: 'staticAssertionFailed' : unreferenced local variable
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\openexr-1.7.0\imfcheckedarithmetic.h(101): warning C4101: 'staticAssertionFailed' : unreferenced local variable
+                 c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\openexr-1.7.0\imfb44compressor.cpp(516) : see reference to function template instantiation 'T Imf::uiAdd<T>(T,T)' being compiled
+                 with
+                 [
+                     T=size_t
+                 ]
+         ImfAttribute.cpp
+         ImfAcesFile.cpp
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\openexr-1.7.0\imfchromaticities.h(53): warning C4099: 'Imf::Chromaticities' : type name first seen using 'class' now seen using 'struct'
+                 c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\openexr-1.7.0\imfacesfile.h(93) : see declaration of 'Imf::Chromaticities'
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\openexr-1.7.0\imfacesfile.cpp(57): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\openexr-1.7.0\imfacesfile.cpp(424): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\openexr-1.7.0\imfacesfile.cpp(430): warning C4305: 'argument' : truncation from 'double' to 'float'
+         ImathVec.cpp
+         ImathShear.cpp
+         ImathRandom.cpp
+         ImathMatrixAlgo.cpp
+         ImathFun.cpp
+         ImathColorAlgo.cpp
+         ImathBox.cpp
+         IlmThreadWin32.cpp
+         IlmThreadSemaphoreWin32.cpp
+         IlmThreadSemaphorePosixCompat.cpp
+         IlmThreadSemaphorePosix.cpp
+         IlmThreadSemaphore.cpp
+         IlmThreadPosix.cpp
+         IlmThreadPool.cpp
+         IlmThreadMutexWin32.cpp
+         IlmThreadMutexPosix.cpp
+         IlmThreadMutex.cpp
+         Generating Code...
+         Compiling...
+         IlmThread.cpp
+         IexThrowErrnoExc.cpp
+         IexBaseExc.cpp
+         half.cpp
+         Generating Code...
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WIN32 /D _DEBUG /D _CONSOLE /D PBRT_PROBES_NONE /D PBRT_HAS_OPENEXR /D ZLIB_WINAPI /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"../../tmp/libpbrt/" /Fd"../../tmp/libpbrt/vc110.pdb" /Gd /TC /analyze- /errorReport:prompt "..\3rdparty\tiff-3.9.4\mkg3states.c" "..\3rdparty\tiff-3.9.4\tif_aux.c" "..\3rdparty\tiff-3.9.4\tif_close.c" "..\3rdparty\tiff-3.9.4\tif_codec.c" "..\3rdparty\tiff-3.9.4\tif_color.c" "..\3rdparty\tiff-3.9.4\tif_compress.c" "..\3rdparty\tiff-3.9.4\tif_dir.c" "..\3rdparty\tiff-3.9.4\tif_dirinfo.c" "..\3rdparty\tiff-3.9.4\tif_dirread.c" "..\3rdparty\tiff-3.9.4\tif_dirwrite.c" "..\3rdparty\tiff-3.9.4\tif_dumpmode.c" "..\3rdparty\tiff-3.9.4\tif_error.c" "..\3rdparty\tiff-3.9.4\tif_extension.c" "..\3rdparty\tiff-3.9.4\tif_fax3.c" "..\3rdparty\tiff-3.9.4\tif_fax3sm.c" "..\3rdparty\tiff-3.9.4\tif_flush.c" "..\3rdparty\tiff-3.9.4\tif_getimage.c" "..\3rdparty\tiff-3.9.4\tif_jbig.c" "..\3rdparty\tiff-3.9.4\tif_jpeg.c" "..\3rdparty\tiff-3.9.4\tif_luv.c" "..\3rdparty\tiff-3.9.4\tif_lzw.c" "..\3rdparty\tiff-3.9.4\tif_next.c" "..\3rdparty\tiff-3.9.4\tif_ojpeg.c" "..\3rdparty\tiff-3.9.4\tif_open.c" "..\3rdparty\tiff-3.9.4\tif_packbits.c" "..\3rdparty\tiff-3.9.4\tif_pixarlog.c" "..\3rdparty\tiff-3.9.4\tif_predict.c" "..\3rdparty\tiff-3.9.4\tif_print.c" "..\3rdparty\tiff-3.9.4\tif_read.c" "..\3rdparty\tiff-3.9.4\tif_strip.c" "..\3rdparty\tiff-3.9.4\tif_swab.c" "..\3rdparty\tiff-3.9.4\tif_thunder.c" "..\3rdparty\tiff-3.9.4\tif_tile.c" "..\3rdparty\tiff-3.9.4\tif_version.c" "..\3rdparty\tiff-3.9.4\tif_warning.c" "..\3rdparty\tiff-3.9.4\tif_win32.c" "..\3rdparty\tiff-3.9.4\tif_write.c" "..\3rdparty\tiff-3.9.4\tif_zip.c" "..\3rdparty\zlib-1.2.5\adler32.c" "..\3rdparty\zlib-1.2.5\compress.c" "..\3rdparty\zlib-1.2.5\crc32.c" "..\3rdparty\zlib-1.2.5\deflate.c" "..\3rdparty\zlib-1.2.5\gzclose.c" "..\3rdparty\zlib-1.2.5\gzlib.c" "..\3rdparty\zlib-1.2.5\gzread.c" "..\3rdparty\zlib-1.2.5\gzwrite.c" "..\3rdparty\zlib-1.2.5\infback.c" "..\3rdparty\zlib-1.2.5\inffast.c" "..\3rdparty\zlib-1.2.5\inflate.c" "..\3rdparty\zlib-1.2.5\inftrees.c" "..\3rdparty\zlib-1.2.5\trees.c" "..\3rdparty\zlib-1.2.5\uncompr.c" "..\3rdparty\zlib-1.2.5\zutil.c" ..\core\targa.c
+         targa.c
+         zutil.c
+         uncompr.c
+         trees.c
+         inftrees.c
+         inflate.c
+         inffast.c
+         infback.c
+         gzwrite.c
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\zlib-1.2.5\gzwrite.c(80): warning C4996: 'write': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _write. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\io.h(321) : see declaration of 'write'
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\zlib-1.2.5\gzwrite.c(528): warning C4996: 'close': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _close. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\io.h(305) : see declaration of 'close'
+         gzread.c
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\zlib-1.2.5\gzread.c(31): warning C4996: 'read': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _read. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\io.h(316) : see declaration of 'read'
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\zlib-1.2.5\gzread.c(650): warning C4996: 'close': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _close. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\io.h(305) : see declaration of 'close'
+         gzlib.c
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\zlib-1.2.5\gzlib.c(173): warning C4996: 'open': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _open. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\io.h(315) : see declaration of 'open'
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\zlib-1.2.5\gzlib.c(184): warning C4996: 'lseek': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _lseek. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\io.h(313) : see declaration of 'lseek'
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\zlib-1.2.5\gzlib.c(268): warning C4996: 'lseek': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _lseek. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\io.h(313) : see declaration of 'lseek'
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\zlib-1.2.5\gzlib.c(309): warning C4996: 'lseek': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _lseek. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\io.h(313) : see declaration of 'lseek'
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\zlib-1.2.5\gzlib.c(404): warning C4996: 'lseek': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _lseek. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\io.h(313) : see declaration of 'lseek'
+         gzclose.c
+         deflate.c
+         crc32.c
+         compress.c
+         adler32.c
+         tif_zip.c
+         tif_write.c
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\tiff-3.9.4\tif_write.c(633): warning C4018: '>=' : signed/unsigned mismatch
+         tif_win32.c
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\tiff-3.9.4\tif_win32.c(350): warning C4133: 'initializing' : incompatible types - from 'char [11]' to 'LPCTSTR'
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\tiff-3.9.4\tif_win32.c(351): warning C4133: 'initializing' : incompatible types - from 'char [8]' to 'LPCTSTR'
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\tiff-3.9.4\tif_win32.c(352): warning C4133: ':' : incompatible types - from 'const char *' to 'LPCTSTR'
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\tiff-3.9.4\tif_win32.c(353): warning C4133: 'function' : incompatible types - from 'LPCTSTR' to 'const char *'
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\tiff-3.9.4\tif_win32.c(354): warning C4133: 'function' : incompatible types - from 'LPCTSTR' to 'const char *'
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\tiff-3.9.4\tif_win32.c(356): warning C4133: 'function' : incompatible types - from 'LPTSTR' to 'char *'
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\tiff-3.9.4\tif_win32.c(356): warning C4133: 'function' : incompatible types - from 'LPCTSTR' to 'const char *'
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\tiff-3.9.4\tif_win32.c(357): warning C4133: 'function' : incompatible types - from 'LPTSTR' to 'const char *'
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\tiff-3.9.4\tif_win32.c(358): warning C4133: 'function' : incompatible types - from 'LPTSTR' to 'char *'
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\tiff-3.9.4\tif_win32.c(359): warning C4133: 'function' : incompatible types - from 'LPTSTR' to 'LPCSTR'
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\tiff-3.9.4\tif_win32.c(378): warning C4133: 'initializing' : incompatible types - from 'char [9]' to 'LPCTSTR'
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\tiff-3.9.4\tif_win32.c(379): warning C4133: 'initializing' : incompatible types - from 'char [8]' to 'LPCTSTR'
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\tiff-3.9.4\tif_win32.c(380): warning C4133: ':' : incompatible types - from 'const char *' to 'LPCTSTR'
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\tiff-3.9.4\tif_win32.c(381): warning C4133: 'function' : incompatible types - from 'LPCTSTR' to 'const char *'
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\tiff-3.9.4\tif_win32.c(382): warning C4133: 'function' : incompatible types - from 'LPCTSTR' to 'const char *'
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\tiff-3.9.4\tif_win32.c(384): warning C4133: 'function' : incompatible types - from 'LPTSTR' to 'char *'
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\tiff-3.9.4\tif_win32.c(384): warning C4133: 'function' : incompatible types - from 'LPCTSTR' to 'const char *'
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\tiff-3.9.4\tif_win32.c(385): warning C4133: 'function' : incompatible types - from 'LPTSTR' to 'const char *'
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\tiff-3.9.4\tif_win32.c(386): warning C4133: 'function' : incompatible types - from 'LPTSTR' to 'char *'
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\tiff-3.9.4\tif_win32.c(387): warning C4133: 'function' : incompatible types - from 'LPTSTR' to 'LPCSTR'
+         tif_warning.c
+         Generating Code...
+         Compiling...
+         tif_version.c
+         tif_tile.c
+         tif_thunder.c
+         tif_swab.c
+         tif_strip.c
+         tif_read.c
+         tif_print.c
+         tif_predict.c
+         tif_pixarlog.c
+         tif_packbits.c
+         tif_open.c
+         tif_ojpeg.c
+         tif_next.c
+         tif_lzw.c
+         tif_luv.c
+         tif_jpeg.c
+         tif_jbig.c
+         tif_getimage.c
+         tif_flush.c
+         tif_fax3sm.c
+         Generating Code...
+         Compiling...
+         tif_fax3.c
+         tif_extension.c
+         tif_error.c
+         tif_dumpmode.c
+         tif_dirwrite.c
+         tif_dirread.c
+         tif_dirinfo.c
+     1>c:\intergrate\pbrt-v2-src\pbrt-v2\src\3rdparty\tiff-3.9.4\tif_dirinfo.c(799): warning C4996: '_lfind': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _lfind. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\search.h(53) : see declaration of '_lfind'
+         tif_dir.c
+         tif_compress.c
+         tif_color.c
+         tif_codec.c
+         tif_close.c
+         tif_aux.c
+         mkg3states.c
+         Generating Code...
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WIN32 /D _DEBUG /D _CONSOLE /D PBRT_PROBES_NONE /D PBRT_HAS_OPENEXR /D ZLIB_WINAPI /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"../../tmp/libpbrt/libpbrt.pch" /Fo"../../tmp/libpbrt/" /Fd"../../tmp/libpbrt/vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ..\accelerators\bvh.cpp ..\accelerators\grid.cpp ..\accelerators\kdtreeaccel.cpp ..\cameras\environment.cpp ..\cameras\orthographic.cpp ..\cameras\perspective.cpp ..\core\api.cpp ..\core\camera.cpp ..\core\diffgeom.cpp ..\core\error.cpp ..\core\fileutil.cpp ..\core\film.cpp ..\core\filter.cpp ..\core\floatfile.cpp ..\core\geometry.cpp ..\core\imageio.cpp ..\core\integrator.cpp ..\core\intersection.cpp ..\core\light.cpp ..\core\material.cpp ..\core\memory.cpp ..\core\montecarlo.cpp ..\core\parallel.cpp ..\core\paramset.cpp ..\core\parser.cpp ..\core\primitive.cpp ..\core\probes.cpp ..\core\progressreporter.cpp ..\core\quaternion.cpp ..\core\reflection.cpp ..\core\renderer.cpp ..\core\rng.cpp ..\core\sampler.cpp ..\core\scene.cpp ..\core\sh.cpp ..\core\shape.cpp ..\core\shrots.cpp ..\core\spectrum.cpp ..\core\texture.cpp ..\core\timer.cpp ..\core\transform.cpp ..\core\volume.cpp ..\film\image.cpp ..\filters\box.cpp ..\filters\gaussian.cpp ..\filters\mitchell.cpp ..\filters\sinc.cpp ..\filters\triangle.cpp ..\integrators\ambientocclusion.cpp ..\integrators\diffuseprt.cpp ..\integrators\dipolesubsurface.cpp ..\integrators\directlighting.cpp ..\integrators\emission.cpp ..\integrators\glossyprt.cpp ..\integrators\igi.cpp ..\integrators\irradiancecache.cpp ..\integrators\path.cpp ..\integrators\photonmap.cpp ..\integrators\single.cpp ..\integrators\useprobes.cpp ..\integrators\whitted.cpp ..\lights\diffuse.cpp ..\lights\distant.cpp ..\lights\goniometric.cpp ..\lights\infinite.cpp ..\lights\point.cpp ..\lights\projection.cpp ..\lights\spot.cpp ..\materials\glass.cpp ..\materials\kdsubsurface.cpp ..\materials\matte.cpp ..\materials\measured.cpp ..\materials\metal.cpp ..\materials\mirror.cpp ..\materials\mixmat.cpp ..\materials\plastic.cpp ..\materials\shinymetal.cpp ..\materials\substrate.cpp ..\materials\subsurface.cpp ..\materials\translucent.cpp ..\materials\uber.cpp ..\renderers\aggregatetest.cpp ..\renderers\createprobes.cpp ..\renderers\metropolis.cpp ..\renderers\samplerrenderer.cpp ..\renderers\surfacepoints.cpp ..\samplers\adaptive.cpp ..\samplers\bestcandidate.cpp ..\samplers\halton.cpp ..\samplers\lowdiscrepancy.cpp ..\samplers\random.cpp ..\samplers\stratified.cpp ..\shapes\cone.cpp ..\shapes\cylinder.cpp ..\shapes\disk.cpp ..\shapes\heightfield.cpp ..\shapes\hyperboloid.cpp ..\shapes\loopsubdiv.cpp ..\shapes\nurbs.cpp ..\shapes\paraboloid.cpp ..\shapes\sphere.cpp ..\shapes\trianglemesh.cpp ..\textures\bilerp.cpp ..\textures\checkerboard.cpp ..\textures\constant.cpp ..\textures\dots.cpp ..\textures\fbm.cpp ..\textures\imagemap.cpp ..\textures\marble.cpp ..\textures\mix.cpp ..\textures\scale.cpp ..\textures\uv.cpp ..\textures\windy.cpp ..\textures\wrinkled.cpp ..\volumes\exponential.cpp ..\volumes\homogeneous.cpp ..\volumes\volumegrid.cpp
+         volumegrid.cpp
+         homogeneous.cpp
+         exponential.cpp
+         wrinkled.cpp
+         windy.cpp
+         uv.cpp
+         scale.cpp
+         mix.cpp
+         marble.cpp
+         imagemap.cpp
+         fbm.cpp
+         dots.cpp
+         constant.cpp
+         checkerboard.cpp
+         bilerp.cpp
+         trianglemesh.cpp
+         sphere.cpp
+         paraboloid.cpp
+         nurbs.cpp
+         loopsubdiv.cpp
+         Generating Code...
+         Compiling...
+         hyperboloid.cpp
+         heightfield.cpp
+         disk.cpp
+         cylinder.cpp
+         cone.cpp
+         stratified.cpp
+         random.cpp
+         lowdiscrepancy.cpp
+         halton.cpp
+         bestcandidate.cpp
+         adaptive.cpp
+         surfacepoints.cpp
+         samplerrenderer.cpp
+         metropolis.cpp
+         createprobes.cpp
+         aggregatetest.cpp
+         uber.cpp
+         translucent.cpp
+         subsurface.cpp
+         substrate.cpp
+         Generating Code...
+         Compiling...
+         shinymetal.cpp
+         plastic.cpp
+         mixmat.cpp
+         mirror.cpp
+         metal.cpp
+         measured.cpp
+         matte.cpp
+         kdsubsurface.cpp
+         glass.cpp
+         spot.cpp
+         projection.cpp
+         point.cpp
+         infinite.cpp
+         goniometric.cpp
+         distant.cpp
+         diffuse.cpp
+         whitted.cpp
+         useprobes.cpp
+         single.cpp
+         photonmap.cpp
+         Generating Code...
+         Compiling...
+         path.cpp
+         irradiancecache.cpp
+         igi.cpp
+         glossyprt.cpp
+         emission.cpp
+         directlighting.cpp
+         dipolesubsurface.cpp
+         diffuseprt.cpp
+         ambientocclusion.cpp
+         triangle.cpp
+         sinc.cpp
+         mitchell.cpp
+         gaussian.cpp
+         box.cpp
+         image.cpp
+         volume.cpp
+         transform.cpp
+         timer.cpp
+         texture.cpp
+         spectrum.cpp
+         Generating Code...
+         Compiling...
+         shrots.cpp
+         shape.cpp
+         sh.cpp
+         scene.cpp
+         sampler.cpp
+         rng.cpp
+         renderer.cpp
+         reflection.cpp
+         quaternion.cpp
+         progressreporter.cpp
+         probes.cpp
+         primitive.cpp
+         parser.cpp
+         paramset.cpp
+         parallel.cpp
+         montecarlo.cpp
+         memory.cpp
+         material.cpp
+         light.cpp
+         intersection.cpp
+         Generating Code...
+         Compiling...
+         integrator.cpp
+         imageio.cpp
+         geometry.cpp
+         floatfile.cpp
+         filter.cpp
+         film.cpp
+         fileutil.cpp
+         error.cpp
+         diffgeom.cpp
+         camera.cpp
+         api.cpp
+         perspective.cpp
+         orthographic.cpp
+         environment.cpp
+         kdtreeaccel.cpp
+         grid.cpp
+         bvh.cpp
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\Lib.exe /OUT:"../../lib/libpbrt.lib" /NOLOGO /MACHINE:X86 ../../tmp/libpbrt/half.obj
+         ../../tmp/libpbrt/IexBaseExc.obj
+         ../../tmp/libpbrt/IexThrowErrnoExc.obj
+         ../../tmp/libpbrt/IlmThread.obj
+         ../../tmp/libpbrt/IlmThreadMutex.obj
+         ../../tmp/libpbrt/IlmThreadMutexPosix.obj
+         ../../tmp/libpbrt/IlmThreadMutexWin32.obj
+         ../../tmp/libpbrt/IlmThreadPool.obj
+         ../../tmp/libpbrt/IlmThreadPosix.obj
+         ../../tmp/libpbrt/IlmThreadSemaphore.obj
+         ../../tmp/libpbrt/IlmThreadSemaphorePosix.obj
+         ../../tmp/libpbrt/IlmThreadSemaphorePosixCompat.obj
+         ../../tmp/libpbrt/IlmThreadSemaphoreWin32.obj
+         ../../tmp/libpbrt/IlmThreadWin32.obj
+         ../../tmp/libpbrt/ImathBox.obj
+         ../../tmp/libpbrt/ImathColorAlgo.obj
+         ../../tmp/libpbrt/ImathFun.obj
+         ../../tmp/libpbrt/ImathMatrixAlgo.obj
+         ../../tmp/libpbrt/ImathRandom.obj
+         ../../tmp/libpbrt/ImathShear.obj
+         ../../tmp/libpbrt/ImathVec.obj
+         ../../tmp/libpbrt/ImfAcesFile.obj
+         ../../tmp/libpbrt/ImfAttribute.obj
+         ../../tmp/libpbrt/ImfB44Compressor.obj
+         ../../tmp/libpbrt/ImfBoxAttribute.obj
+         ../../tmp/libpbrt/ImfChannelList.obj
+         ../../tmp/libpbrt/ImfChannelListAttribute.obj
+         ../../tmp/libpbrt/ImfChromaticities.obj
+         ../../tmp/libpbrt/ImfChromaticitiesAttribute.obj
+         ../../tmp/libpbrt/ImfCompressionAttribute.obj
+         ../../tmp/libpbrt/ImfCompressor.obj
+         ../../tmp/libpbrt/ImfConvert.obj
+         ../../tmp/libpbrt/ImfCRgbaFile.obj
+         ../../tmp/libpbrt/ImfDoubleAttribute.obj
+         ../../tmp/libpbrt/ImfEnvmap.obj
+         ../../tmp/libpbrt/ImfEnvmapAttribute.obj
+         ../../tmp/libpbrt/ImfFloatAttribute.obj
+         ../../tmp/libpbrt/ImfFrameBuffer.obj
+         ../../tmp/libpbrt/ImfFramesPerSecond.obj
+         ../../tmp/libpbrt/ImfHeader.obj
+         ../../tmp/libpbrt/ImfHuf.obj
+         ../../tmp/libpbrt/ImfInputFile.obj
+         ../../tmp/libpbrt/ImfIntAttribute.obj
+         ../../tmp/libpbrt/ImfIO.obj
+         ../../tmp/libpbrt/ImfKeyCode.obj
+         ../../tmp/libpbrt/ImfKeyCodeAttribute.obj
+         ../../tmp/libpbrt/ImfLineOrderAttribute.obj
+         ../../tmp/libpbrt/ImfLut.obj
+         ../../tmp/libpbrt/ImfMatrixAttribute.obj
+         ../../tmp/libpbrt/ImfMisc.obj
+         ../../tmp/libpbrt/ImfMultiView.obj
+         ../../tmp/libpbrt/ImfOpaqueAttribute.obj
+         ../../tmp/libpbrt/ImfOutputFile.obj
+         ../../tmp/libpbrt/ImfPizCompressor.obj
+         ../../tmp/libpbrt/ImfPreviewImage.obj
+         ../../tmp/libpbrt/ImfPreviewImageAttribute.obj
+         ../../tmp/libpbrt/ImfPxr24Compressor.obj
+         ../../tmp/libpbrt/ImfRational.obj
+         ../../tmp/libpbrt/ImfRationalAttribute.obj
+         ../../tmp/libpbrt/ImfRgbaFile.obj
+         ../../tmp/libpbrt/ImfRgbaYca.obj
+         ../../tmp/libpbrt/ImfRleCompressor.obj
+         ../../tmp/libpbrt/ImfScanLineInputFile.obj
+         ../../tmp/libpbrt/ImfStandardAttributes.obj
+         ../../tmp/libpbrt/ImfStdIO.obj
+         ../../tmp/libpbrt/ImfStringAttribute.obj
+         ../../tmp/libpbrt/ImfStringVectorAttribute.obj
+         ../../tmp/libpbrt/ImfTestFile.obj
+         ../../tmp/libpbrt/ImfThreading.obj
+         ../../tmp/libpbrt/ImfTileDescriptionAttribute.obj
+         ../../tmp/libpbrt/ImfTiledInputFile.obj
+         ../../tmp/libpbrt/ImfTiledMisc.obj
+         ../../tmp/libpbrt/ImfTiledOutputFile.obj
+         ../../tmp/libpbrt/ImfTiledRgbaFile.obj
+         ../../tmp/libpbrt/ImfTileOffsets.obj
+         ../../tmp/libpbrt/ImfTimeCode.obj
+         ../../tmp/libpbrt/ImfTimeCodeAttribute.obj
+         ../../tmp/libpbrt/ImfVecAttribute.obj
+         ../../tmp/libpbrt/ImfVersion.obj
+         ../../tmp/libpbrt/ImfWav.obj
+         ../../tmp/libpbrt/ImfZipCompressor.obj
+         ../../tmp/libpbrt/mkg3states.obj
+         ../../tmp/libpbrt/tif_aux.obj
+         ../../tmp/libpbrt/tif_close.obj
+         ../../tmp/libpbrt/tif_codec.obj
+         ../../tmp/libpbrt/tif_color.obj
+         ../../tmp/libpbrt/tif_compress.obj
+         ../../tmp/libpbrt/tif_dir.obj
+         ../../tmp/libpbrt/tif_dirinfo.obj
+         ../../tmp/libpbrt/tif_dirread.obj
+         ../../tmp/libpbrt/tif_dirwrite.obj
+         ../../tmp/libpbrt/tif_dumpmode.obj
+         ../../tmp/libpbrt/tif_error.obj
+         ../../tmp/libpbrt/tif_extension.obj
+         ../../tmp/libpbrt/tif_fax3.obj
+         ../../tmp/libpbrt/tif_fax3sm.obj
+         ../../tmp/libpbrt/tif_flush.obj
+         ../../tmp/libpbrt/tif_getimage.obj
+         ../../tmp/libpbrt/tif_jbig.obj
+         ../../tmp/libpbrt/tif_jpeg.obj
+         ../../tmp/libpbrt/tif_luv.obj
+         ../../tmp/libpbrt/tif_lzw.obj
+         ../../tmp/libpbrt/tif_next.obj
+         ../../tmp/libpbrt/tif_ojpeg.obj
+         ../../tmp/libpbrt/tif_open.obj
+         ../../tmp/libpbrt/tif_packbits.obj
+         ../../tmp/libpbrt/tif_pixarlog.obj
+         ../../tmp/libpbrt/tif_predict.obj
+         ../../tmp/libpbrt/tif_print.obj
+         ../../tmp/libpbrt/tif_read.obj
+         ../../tmp/libpbrt/tif_stream.obj
+         ../../tmp/libpbrt/tif_strip.obj
+         ../../tmp/libpbrt/tif_swab.obj
+         ../../tmp/libpbrt/tif_thunder.obj
+         ../../tmp/libpbrt/tif_tile.obj
+         ../../tmp/libpbrt/tif_version.obj
+         ../../tmp/libpbrt/tif_warning.obj
+         ../../tmp/libpbrt/tif_win32.obj
+         ../../tmp/libpbrt/tif_write.obj
+         ../../tmp/libpbrt/tif_zip.obj
+         ../../tmp/libpbrt/adler32.obj
+         ../../tmp/libpbrt/compress.obj
+         ../../tmp/libpbrt/crc32.obj
+         ../../tmp/libpbrt/deflate.obj
+         ../../tmp/libpbrt/gzclose.obj
+         ../../tmp/libpbrt/gzlib.obj
+         ../../tmp/libpbrt/gzread.obj
+         ../../tmp/libpbrt/gzwrite.obj
+         ../../tmp/libpbrt/infback.obj
+         ../../tmp/libpbrt/inffast.obj
+         ../../tmp/libpbrt/inflate.obj
+         ../../tmp/libpbrt/inftrees.obj
+         ../../tmp/libpbrt/trees.obj
+         ../../tmp/libpbrt/uncompr.obj
+         ../../tmp/libpbrt/zutil.obj
+         ../../tmp/libpbrt/bvh.obj
+         ../../tmp/libpbrt/grid.obj
+         ../../tmp/libpbrt/kdtreeaccel.obj
+         ../../tmp/libpbrt/environment.obj
+         ../../tmp/libpbrt/orthographic.obj
+         ../../tmp/libpbrt/perspective.obj
+         ../../tmp/libpbrt/api.obj
+         ../../tmp/libpbrt/camera.obj
+         ../../tmp/libpbrt/diffgeom.obj
+         ../../tmp/libpbrt/error.obj
+         ../../tmp/libpbrt/fileutil.obj
+         ../../tmp/libpbrt/film.obj
+         ../../tmp/libpbrt/filter.obj
+         ../../tmp/libpbrt/floatfile.obj
+         ../../tmp/libpbrt/geometry.obj
+         ../../tmp/libpbrt/imageio.obj
+         ../../tmp/libpbrt/StdAfx.obj
+         ../../tmp/libpbrt/targa.obj
+         ../../tmp/libpbrt/integrator.obj
+         ../../tmp/libpbrt/intersection.obj
+         ../../tmp/libpbrt/light.obj
+         ../../tmp/libpbrt/material.obj
+         ../../tmp/libpbrt/memory.obj
+         ../../tmp/libpbrt/montecarlo.obj
+         ../../tmp/libpbrt/parallel.obj
+         ../../tmp/libpbrt/paramset.obj
+         ../../tmp/libpbrt/parser.obj
+         ../../tmp/libpbrt/pbrtlex.obj
+         ../../tmp/libpbrt/pbrtparse.obj
+         ../../tmp/libpbrt/primitive.obj
+         ../../tmp/libpbrt/probes.obj
+         ../../tmp/libpbrt/progressreporter.obj
+         ../../tmp/libpbrt/quaternion.obj
+         ../../tmp/libpbrt/reflection.obj
+         ../../tmp/libpbrt/renderer.obj
+         ../../tmp/libpbrt/rng.obj
+         ../../tmp/libpbrt/sampler.obj
+         ../../tmp/libpbrt/scene.obj
+         ../../tmp/libpbrt/sh.obj
+         ../../tmp/libpbrt/shape.obj
+         ../../tmp/libpbrt/shrots.obj
+         ../../tmp/libpbrt/spectrum.obj
+         ../../tmp/libpbrt/texture.obj
+         ../../tmp/libpbrt/timer.obj
+         ../../tmp/libpbrt/transform.obj
+         ../../tmp/libpbrt/volume.obj
+         ../../tmp/libpbrt/image.obj
+         ../../tmp/libpbrt/box.obj
+         ../../tmp/libpbrt/gaussian.obj
+         ../../tmp/libpbrt/mitchell.obj
+         ../../tmp/libpbrt/sinc.obj
+         ../../tmp/libpbrt/triangle.obj
+         ../../tmp/libpbrt/ambientocclusion.obj
+         ../../tmp/libpbrt/diffuseprt.obj
+         ../../tmp/libpbrt/dipolesubsurface.obj
+         ../../tmp/libpbrt/directlighting.obj
+         ../../tmp/libpbrt/emission.obj
+         ../../tmp/libpbrt/glossyprt.obj
+         ../../tmp/libpbrt/igi.obj
+         ../../tmp/libpbrt/irradiancecache.obj
+         ../../tmp/libpbrt/path.obj
+         ../../tmp/libpbrt/photonmap.obj
+         ../../tmp/libpbrt/single.obj
+         ../../tmp/libpbrt/useprobes.obj
+         ../../tmp/libpbrt/whitted.obj
+         ../../tmp/libpbrt/diffuse.obj
+         ../../tmp/libpbrt/distant.obj
+         ../../tmp/libpbrt/goniometric.obj
+         ../../tmp/libpbrt/infinite.obj
+         ../../tmp/libpbrt/point.obj
+         ../../tmp/libpbrt/projection.obj
+         ../../tmp/libpbrt/spot.obj
+         ../../tmp/libpbrt/glass.obj
+         ../../tmp/libpbrt/kdsubsurface.obj
+         ../../tmp/libpbrt/matte.obj
+         ../../tmp/libpbrt/measured.obj
+         ../../tmp/libpbrt/metal.obj
+         ../../tmp/libpbrt/mirror.obj
+         ../../tmp/libpbrt/mixmat.obj
+         ../../tmp/libpbrt/plastic.obj
+         ../../tmp/libpbrt/shinymetal.obj
+         ../../tmp/libpbrt/substrate.obj
+         ../../tmp/libpbrt/subsurface.obj
+         ../../tmp/libpbrt/translucent.obj
+         ../../tmp/libpbrt/uber.obj
+         ../../tmp/libpbrt/aggregatetest.obj
+         ../../tmp/libpbrt/createprobes.obj
+         ../../tmp/libpbrt/metropolis.obj
+         ../../tmp/libpbrt/samplerrenderer.obj
+         ../../tmp/libpbrt/surfacepoints.obj
+         ../../tmp/libpbrt/adaptive.obj
+         ../../tmp/libpbrt/bestcandidate.obj
+         ../../tmp/libpbrt/halton.obj
+         ../../tmp/libpbrt/lowdiscrepancy.obj
+         ../../tmp/libpbrt/random.obj
+         ../../tmp/libpbrt/stratified.obj
+         ../../tmp/libpbrt/cone.obj
+         ../../tmp/libpbrt/cylinder.obj
+         ../../tmp/libpbrt/disk.obj
+         ../../tmp/libpbrt/heightfield.obj
+         ../../tmp/libpbrt/hyperboloid.obj
+         ../../tmp/libpbrt/loopsubdiv.obj
+         ../../tmp/libpbrt/nurbs.obj
+         ../../tmp/libpbrt/paraboloid.obj
+         ../../tmp/libpbrt/sphere.obj
+         ../../tmp/libpbrt/trianglemesh.obj
+         ../../tmp/libpbrt/bilerp.obj
+         ../../tmp/libpbrt/checkerboard.obj
+         ../../tmp/libpbrt/constant.obj
+         ../../tmp/libpbrt/dots.obj
+         ../../tmp/libpbrt/fbm.obj
+         ../../tmp/libpbrt/imagemap.obj
+         ../../tmp/libpbrt/marble.obj
+         ../../tmp/libpbrt/mix.obj
+         ../../tmp/libpbrt/scale.obj
+         ../../tmp/libpbrt/uv.obj
+         ../../tmp/libpbrt/windy.obj
+         ../../tmp/libpbrt/wrinkled.obj
+         ../../tmp/libpbrt/exponential.obj
+         ../../tmp/libpbrt/homogeneous.obj
+         ../../tmp/libpbrt/volumegrid.obj
+     1>ImathShear.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>ImathBox.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+         libpbrt.vcxproj -> C:\intergrate\pbrt-v2-src\pbrt-v2\src\pbrt.vs2012\../../lib/libpbrt.lib
+       FinalizeBuildStatus:
+         Deleting file "../../tmp/libpbrt/libpbrt.unsuccessfulbuild".
+         Touching "../../tmp/libpbrt/libpbrt.lastbuildstate".
+     1>Done Building Project "C:\intergrate\pbrt-v2-src\pbrt-v2\src\pbrt.vs2012\libpbrt.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:01:30.02

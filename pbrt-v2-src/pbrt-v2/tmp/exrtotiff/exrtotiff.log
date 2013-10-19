@@ -1,0 +1,17 @@
+﻿Build started 2013-09-07 오후 6:32:30.
+     1>Project "C:\intergrate\pbrt-v2-src\pbrt-v2\src\pbrt.vs2012\exrtotiff.vcxproj" on node 4 (Build target(s)).
+     1>InitializeBuildStatus:
+         Creating "../../tmp/exrtotiff/exrtotiff.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../../bin/exrtotiff.exe" /INCREMENTAL /NOLOGO libpbrt.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"../../bin/exrtotiff.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"../../bin/exrtotiff.lib" /MACHINE:X86 ../../tmp/exrtotiff/exrtotiff.obj
+         exrtotiff.vcxproj -> C:\intergrate\pbrt-v2-src\pbrt-v2\src\pbrt.vs2012\../../bin/exrtotiff.exe
+       FinalizeBuildStatus:
+         Deleting file "../../tmp/exrtotiff/exrtotiff.unsuccessfulbuild".
+         Touching "../../tmp/exrtotiff/exrtotiff.lastbuildstate".
+     1>Done Building Project "C:\intergrate\pbrt-v2-src\pbrt-v2\src\pbrt.vs2012\exrtotiff.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.60

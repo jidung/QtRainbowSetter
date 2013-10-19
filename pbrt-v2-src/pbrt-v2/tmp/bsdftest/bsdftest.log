@@ -1,0 +1,15 @@
+﻿Build started 2013-09-07 오후 6:41:04.
+     1>Project "C:\intergrate\pbrt-v2-src\pbrt-v2\src\pbrt.vs2012\bsdftest.vcxproj" on node 3 (Build target(s)).
+     1>InitializeBuildStatus:
+         Touching "../../tmp/bsdftest/bsdftest.unsuccessfulbuild".
+       ClCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../../bin/bsdftest.exe" /INCREMENTAL /NOLOGO libpbrt.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"../../bin/bsdftest.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"../../bin/bsdftest.lib" /MACHINE:X86 ../../tmp/bsdftest/bsdftest.obj
+     1>libpbrt.lib(api.obj) : error LNK2001: unresolved external symbol "float g_frustMinFov" (?g_frustMinFov@@3MA)
+     1>../../bin/bsdftest.exe : fatal error LNK1120: 1 unresolved externals
+     1>Done Building Project "C:\intergrate\pbrt-v2-src\pbrt-v2\src\pbrt.vs2012\bsdftest.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.53
