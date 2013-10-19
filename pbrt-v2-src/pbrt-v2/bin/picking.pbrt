@@ -1,0 +1,31 @@
+LookAt 0.0 1.0 0.0 1.0 1.27 0.0 0.0 1.0 0.0
+Camera "perspective" "float fov" [60] "float frameaspectratio" [1.500000000] 
+
+
+Film "image" "integer xresolution" [600] "integer yresolution" [400] "string filename" ["picking.ppm"]
+
+
+WorldBegin
+
+LightSource "distant" 
+"point from" [0.000000000 0.000000000 0.000000000]
+"point to" [1.00 -0.5 0.0] "rgb L"  [1 1 1]
+
+
+AttributeBegin
+Shape "trianglemesh" "point P" [10  -2 -10 -10 -2 -10 -10 -2 10 10 -2 10]
+                     "normal N" [0 1 0 0 1 0 0 1 0 0 1 0]
+					 "integer indices" [ 0 1 2 2 3 0]
+
+AttributeEnd
+
+AttributeBegin
+Shape "cube" "float size" [2]
+AttributeEnd
+
+AttributeBegin
+Shape "sphere" "float radius" [3] "integer stacks" [100] "integer slices" [100]
+AttributeEnd
+
+
+WorldEnd
